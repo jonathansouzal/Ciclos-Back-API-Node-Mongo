@@ -13,7 +13,7 @@ server.use(queryParser())
 
 
 server.listen(port, function() {
-    console.log(`Backend rodando na porta ${port}.`)
+    // console.log(`Backend rodando na porta ${port}.`)
 })
 
 module.exports = server
